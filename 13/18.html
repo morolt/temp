@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>多个控制器内共享数据</title>
+    <script src="../js/angular.js" ></script>
+    <link rel="stylesheet" href="../bootstrap3/css/bootstrap.min.css" />
+</head>
+<style>
+    .orderColor{color: red}
+</style>
+<body>
+<div ng-app="product">
+    <div class="container" ng-controller="productController">
+        <nav class="navbar navbar-default" role="navigation">
+        <form class="navbar-form navbar-left" role="search">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search" ng-model="search.id">
+            </div>
+        </form>
+        </nav>
+
+        <table class="table">
+            <thead>
+            <tr>
+                <th ng-class="{dropup:order === ''}" ng-click="changeOrder('id')">编号<span ng-class="{orderColor:orderType === 'id'}" class="caret"></span></th>
+                <th ng-class="{dropup:order === ''}" ng-click="changeOrder('name')">名称<span ng-class="{orderColor:orderType === 'name'}" class="caret"></span></th>
+                <th ng-class="{dropup:order === ''}" ng-click="changeOrder('price')">价格<span ng-class="{orderColor:orderType === 'price'}" class="caret"></span></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="product in productData | filter: search| orderBy: order+orderType">
+                <td>{{product.id}}</td>
+                <td>{{product.name}}</td>
+                <td>{{product.price|currency:'￥'}}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+<script>
+angular.module('product',[]
+)
+.service('productData',function(){
+    return [
+        {id:12,name:'iphone',price:4400},
+        {id:142,name:'ipad',price:3400},
+        {id:512,name:'imac',price:9400},
+        {id:6512,name:'ipad air',price:3200},
+        {id:612,name:'ipad mini',price:2400},
+        {id:172,name:'ipad mini2',price:2600},
+        {id:126,name:'iphone4',price:2400}
+    ]
+})
+.controller('productController', function($scope, productData, $filter){
+    $scope.productData = productData;
+    $scope.orderType = 'id';
+    $scope.order = '';
+
+   $scope.changeOrder = function(type){
+       $scope.orderType = type;
+       $scope.order = $scope.order === '' ? '-' : '';
+   }
+})
+</script>
+</html>

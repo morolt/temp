@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../js/angular.js" ></script>
+</head>
+<body ng-app="myApp">
+<div ng-controller="firstController">{{name}}</div>
+
+</body>
+
+
+<script>
+var myApp = angular.module('myApp',[], function($provide){
+    //自定义工厂 可以返回任意类型
+    $provide.factory('CustomFactory',function(){
+        return [1,2,3];
+    })
+    //自定义服务 只能返回对象
+    $provide.service('CustomService2',function(){
+        return 'xxxxs';
+    })
+});
+
+myApp.controller('firstController', function($scope, CustomService2){
+    $scope.name = '张三';
+    console.log(CustomService2);
+});
+
+</script>
+
+
+</html>

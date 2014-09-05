@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>内置指令</title>
+    <script src="../js/angular.js" ></script>
+    <link rel="stylesheet" href="../bootstrap3/css/bootstrap.min.css" />
+</head>
+
+<body>
+<div ng-app="product">
+    <p ng-bind="1+1"></p>
+    <p data-ng-bind="1+1"></p>
+    <p x-ng-bind="1+1"></p>
+
+    <ul ng-init = "cityArr = ['shanghai','beijing','hangzhou']">
+        <li></li>
+    </ul>
+
+    <div ng-style="{color:'red'}">
+        ng-style
+    </div>
+
+</div>
+
+</body>
+<script>
+    angular.module('product',[],function(){
+
+            }
+    )
+
+</script>
+</html>

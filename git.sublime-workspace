@@ -1,0 +1,584 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"input"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+			"settings":
+			{
+				"buffer_size": 20286,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/wamp/bin/apache/apache2.4.9/conf/extra/httpd-vhosts.conf",
+			"settings":
+			{
+				"buffer_size": 1314,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/1月3日更新-高级控件(2)/1128/代码/01-UITableView01-多组数组展示 2/01-UITableView01-多组数组展示/MJViewController.m",
+			"settings":
+			{
+				"buffer_size": 3873,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/1月3日更新-高级控件(2)/1128/代码/01-UITableView01-多组数组展示/01-UITableView01-多组数组展示/MJViewController.m",
+			"settings":
+			{
+				"buffer_size": 2823,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/1月3日更新-高级控件(2)/1128/代码/01-UITableView01-多组数组展示 3/01-UITableView01-多组数组展示/MJViewController.m",
+			"settings":
+			{
+				"buffer_size": 2638,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 536.0
+	},
+	"console":
+	{
+		"height": 223.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/workspace/index.php",
+		"/C/Users/Administrator/Desktop/cv",
+		"/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/1月3日更新-高级控件(2)/1128/代码/01-UITableView01-多组数组展示/01-UITableView01-多组数组展示/MJViewController.m",
+		"/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/1月3日更新-高级控件(2)/1128/代码/01-UITableView01-多组数组展示 2/01-UITableView01-多组数组展示/MJViewController.m",
+		"/C/Users/Administrator/Desktop/文本.txt",
+		"/E/workspace/git/js/second_controller.js",
+		"/C/Users/Administrator/Desktop/reclameaqui_com_br.js",
+		"/E/workspace/git/index.html",
+		"/E/workspace/git/js/first_controller.js",
+		"/D/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+		"/C/Users/Administrator/Desktop/angular.js",
+		"/D/wamp/alias/pma.conf",
+		"/D/wamp/apps/phpmyadmin4.1.14/config.inc.php",
+		"/D/wamp/apps/phpMyAdmin-4.2.7.1-all-languages/config.inc.php",
+		"/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/12月30日更新-高级控件(1)/1127/代码/03-代理设计模式/03-代理设计模式/Dog.m",
+		"/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/12月30日更新-高级控件(1)/1127/代码/03-代理设计模式/03-代理设计模式/Nurse.h",
+		"/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/12月30日更新-高级控件(1)/1127/代码/03-代理设计模式/03-代理设计模式/Nurse.m",
+		"/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/12月30日更新-高级控件(1)/1127/代码/02-UIScrollView02-图片缩放/02-UIScrollView02-图片缩放/MJViewController.h",
+		"/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/12月30日更新-高级控件(1)/1127/代码/02-UIScrollView02-图片缩放/02-UIScrollView02-图片缩放/MJViewController.m",
+		"/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/12月30日更新-高级控件(1)/1127/代码/03-代理设计模式/03-代理设计模式/main.m",
+		"/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/12月30日更新-高级控件(1)/1127/代码/03-代理设计模式/03-代理设计模式/BabyBaomuXieyi.h",
+		"/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/12月30日更新-高级控件(1)/1127/代码/03-代理设计模式/03-代理设计模式/Baby.m",
+		"/E/BaiduYunDownload/ios开发进阶教程/02-基础控件/12月25日更新-基础控件(4-5)/1124/代码/03-Tom/03-Tom/MJViewController.m",
+		"/C/Users/Administrator/Desktop/link.txt",
+		"/C/Users/Administrator/Desktop/chrome_ext/content.js",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/D/wamp/alias/phpmyadmin.conf",
+		"/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/12月30日更新-高级控件(1)/1127/代码/02-UIScrollView02-图片缩放/02-UIScrollView02-图片缩放/main.m",
+		"/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/12月30日更新-高级控件(1)/1127/代码/03-代理设计模式/03-代理设计模式/._Nurse.m",
+		"/D/Program Files/World of Warcraft/Utils/locales/zh-CN.pak"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"password"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/wamp/bin/apache/apache2.4.9/conf/httpd.conf",
+					"settings":
+					{
+						"buffer_size": 20286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9830,
+								9830
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6117.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/wamp/bin/apache/apache2.4.9/conf/extra/httpd-vhosts.conf",
+					"settings":
+					{
+						"buffer_size": 1314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								891,
+								891
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/1月3日更新-高级控件(2)/1128/代码/01-UITableView01-多组数组展示 2/01-UITableView01-多组数组展示/MJViewController.m",
+					"settings":
+					{
+						"buffer_size": 3873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								920,
+								920
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Objective-C/Objective-C.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/1月3日更新-高级控件(2)/1128/代码/01-UITableView01-多组数组展示/01-UITableView01-多组数组展示/MJViewController.m",
+					"settings":
+					{
+						"buffer_size": 2823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								232,
+								232
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Objective-C/Objective-C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/BaiduYunDownload/ios开发进阶教程/03-高级控件/1月3日更新-高级控件(2)/1128/代码/01-UITableView01-多组数组展示 3/01-UITableView01-多组数组展示/MJViewController.m",
+					"settings":
+					{
+						"buffer_size": 2638,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								256,
+								256
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Objective-C/Objective-C.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

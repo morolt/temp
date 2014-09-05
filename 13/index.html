@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../js/angular.js" ></script>
+</head>
+<body ng-app="myApp">
+<div ng-controller="firstController">{{name}}</div>
+
+</body>
+
+
+<script>
+var myApp = angular.module('myApp',[], function($provide){
+
+    $provide.provider('CustomService', function(){
+        this.$get = function(){
+            return {
+                message: 'CustomService Message'
+            }
+        }
+    })
+});
+
+myApp.controller('firstController', function($scope, CustomService){
+    $scope.name = '张三';
+    console.log(CustomService)
+});
+
+</script>
+
+
+</html>

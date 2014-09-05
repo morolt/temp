@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>多个控制器内共享数据</title>
+    <script src="../js/angular.js" ></script>
+    <link rel="stylesheet" href="../bootstrap3/css/bootstrap.min.css" />
+</head>
+<style>
+    .orderColor{color: red}
+</style>
+<body>
+<div ng-app="product">
+    <div class="container" ng-controller="productController">
+
+    </div>
+</div>
+
+</body>
+<script>
+angular.module('product',[],function(){
+
+        }
+)
+.service('productData',function(){
+    return [
+        {id:12,name:'iphone',price:4400},
+        {id:142,name:'ipad',price:3400},
+        {id:512,name:'imac',price:9400},
+        {id:6512,name:'ipad air',price:3200},
+        {id:612,name:'ipad mini',price:2400},
+        {id:172,name:'ipad mini2',price:2600},
+        {id:126,name:'iphone4',price:2400}
+    ]
+})
+.controller('productController', function($scope, productData, $filter){
+    $scope.productData = productData;
+    $scope.orderType = 'id';
+    $scope.order = '';
+
+    $scope.changeOrder = function(type){
+        $scope.orderType = type;
+        $scope.order = $scope.order === '' ? '-' : '';
+    }
+})
+</script>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>多个控制器内共享数据</title>
+    <script src="../js/angular.js" ></script>
+</head>
+<body ng-app="myApp">
+<div ng-controller="firstController">
+    <!-- 123,456,789 -->
+    {{123456789|number}} <br>
+    <!-- 12,345.679 -->
+    {{12345.6789|number:3}} <br>
+
+    <!-- $999,999,999.00 -->
+    <!-- -->
+    {{999999999|currency:"rmb"}}<br>
+    <!-- Sep 1, 2014 9:12:15 AM -->
+    {{today|date:'medium'}} <br>
+
+    <!-- 9/1/14 9:12 AM -->
+    {{today|date:'short'}} <br>
+
+    <!--Monday, September 1, 2014  -->
+    {{today|date:'fullDate'}} <br>
+
+    <!--September 1, 2014  -->
+    {{today|date:'longDate'}} <br>
+
+    {{today|date:'y-M-d H:m:s'}}<br>
+
+    {{[1,2,3,4,5,6,7,8,9] | limitTo:3}}<br>
+
+    {{[1,2,3,4,5,6,7,8,9] | limitTo:-3}}<br>
+
+    {{'longDate'| lowercase}} <br>
+    {{'longDate'| uppercase}} <br>
+    <!--匹配value -->
+   {{data | filter:'上海'}}<br>
+    <!--匹配属性value -->
+    {{data | filter:{ 'py':'g'} }}<br>
+    <!--匹配 自定义过滤器 -->
+    {{data | filter:checkName }}<br>
+
+
+    {{data | orderBy:'py'}} <br>
+    {{data | orderBy:'-py'}} <br>
+
+</div>
+</body>
+<script>
+angular.module('myApp',[]
+).controller('firstController', function($scope, $filter){
+    $scope.today = new Date();
+    $scope.data = [{'name':'上海','py':'shanghai'},{'name':'北京','py':'beijing'},{'name':'天津','py':'tianjin'}];
+
+    var number = $filter('number')(3000);
+    console.log(number);
+    var jsonString = $filter('json')($scope.data);
+    console.log(jsonString);
+
+    //自定义过滤器
+    $scope.checkName = function(obj){
+        if(obj.py.indexOf('h') == -1){
+            return false;
+        }
+        return true;
+    }
+
+})
+</script>
+</html>
